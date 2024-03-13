@@ -8,7 +8,7 @@ def main():
     bullet = random.randint(0, 5)
     cylinder[bullet] = 1
 
-    print("\nWelcome! Let's play a silly game!\n\nFirs things first, are you a real man or do you wanna play like a pussy?\n\n|1 - I'm a pussy   |\n|2 - I'm a real man| WARNING! DANGEROUS CHOICE, MAY CAUSE DAMAGE TO YOUR PC!")
+    print("\nWelcome! Let's play a silly game!\n\nFirs things first, are you a real man or do you wanna play like a pussy?\n\n|1 - I'm a pussy        |\n|2 - I'm a real man     | WARNING! DANGEROUS CHOICE, MAY CAUSE DAMAGE TO YOUR PC!")
     while difficulty<1 or difficulty>2:
         difficulty = int(input("-> "))
         if difficulty<1 or difficulty>2:
